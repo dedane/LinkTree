@@ -6,7 +6,9 @@ import {  Image,
       VStack,
       Box,
          Link,
-          Avatar } from '@chakra-ui/react'
+          Avatar, 
+          AvatarGroup} from '@chakra-ui/react'
+          import Footer from '../src/Components/Footer';
 import './App.css';
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
           <Link
             display='block'
             fontSize='lg'
-            ma='20'
+            m={30}
             fontWeight='bold'
             href=''>dedanxkim</Link>
             <HStack>
@@ -65,9 +67,12 @@ function App() {
                   height='4rem'>Design Books</Button>
             </HStack>
             <HStack>
-              <Avatar name='slack' src='https://ik.imagekit.io/ugyodiq15/icons8-slack-new-48_okvZXPkQE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678278'/>
-              <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
+              <AvatarGroup spacing='2rem'>
+                <Avatar name='slack' src='https://ik.imagekit.io/ugyodiq15/icons8-slack-new-48_okvZXPkQE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678278'/>
+                <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
+              </AvatarGroup>
             </HStack>
+            <Footer />
           </VStack>
 
         </Stack>
