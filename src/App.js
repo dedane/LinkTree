@@ -1,11 +1,11 @@
-import { Heading, Image, Button, Container,  Stack, HStack, VStack,  } from '@chakra-ui/react'
+import { Heading, Image, Button, Container,  Stack, HStack, VStack, Box, Link } from '@chakra-ui/react'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Container>
-     
+     <Box w='500px' h='100px'>
       <Stack>
          <VStack>
           <Image
@@ -17,43 +17,48 @@ function App() {
             alt='profile-image'>
 
           </Image>
-          <Heading>Evans Kimathi</Heading>
+          <Link
+            display='block'
+            fontSize='lg'
+            ma='20'
+            fontWeight='bold'
+            href=''>dedanxkim</Link>
             <HStack>
               <Button
-                width= '1152px'
-                height= "76px"
+                width='70rem'
+                height='4rem'
                 id='twitter'>Twitter Link</Button>
             </HStack>
             <HStack>
               <Button
-                width= '1152px'
-                height= "76px">Zuri Team</Button>
+                width='70rem'
+                height='4rem'>Zuri Team</Button>
             </HStack>
             <HStack>
               <Button
-                width= '1152px'
-                height= "76px"
+                width='70rem'
+                height='4rem'
               >Zuri Books</Button>
             </HStack>
             <HStack>
               <Button
-                width= '1152px'
-                height= "76px"
+                width='70rem'
+                height='4rem'
                 >Python Books</Button>
             </HStack>
             <HStack>
               <Button
-                  width= '1152px'
-                  height= "76px">Background Check for coders</Button>
+                  width='70rem'
+                  height='4rem'>Background Check for coders</Button>
             </HStack>
             <HStack>
               <Button
-                  width= '1152px'
-                  height= "76px">Design Books</Button>
+                  width='70rem'
+                  height='4rem'>Design Books</Button>
             </HStack>
           </VStack>
         </Stack>
-      
+        </Box>
       </Container>
     </div>
   );
