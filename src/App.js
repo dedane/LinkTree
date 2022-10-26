@@ -1,4 +1,4 @@
-import { Box, Image, Button, Container,  Stack, HStack, VStack,  } from '@chakra-ui/react'
+import { Heading, Image, Button, Container,  Stack, HStack, VStack,  } from '@chakra-ui/react'
 import './App.css';
 
 function App() {
@@ -17,11 +17,12 @@ function App() {
             alt='profile-image'>
 
           </Image>
-          <h1>Evans Kimathi</h1>
+          <Heading>Evans Kimathi</Heading>
             <HStack>
               <Button
                 width= '1152px'
-                height= "76px">Twitter Link</Button>
+                height= "76px"
+                id='twitter'>Twitter Link</Button>
             </HStack>
             <HStack>
               <Button
