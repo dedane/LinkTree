@@ -1,4 +1,12 @@
-import { Heading, Image, Button, Container,  Stack, HStack, VStack, Box, Link } from '@chakra-ui/react'
+import {  Image,
+      Button,
+      Container,
+      Stack,
+      HStack, 
+      VStack,
+      Box,
+         Link,
+          Avatar } from '@chakra-ui/react'
 import './App.css';
 
 function App() {
@@ -56,7 +64,12 @@ function App() {
                   width='70rem'
                   height='4rem'>Design Books</Button>
             </HStack>
+            <HStack>
+              <Avatar name='slack' src='https://ik.imagekit.io/ugyodiq15/icons8-slack-new-48_okvZXPkQE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678278'/>
+              <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
+            </HStack>
           </VStack>
+
         </Stack>
         </Box>
       </Container>
