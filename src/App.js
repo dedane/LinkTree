@@ -5,10 +5,13 @@ import {  Image,
       HStack, 
       VStack,
       Box,
-         Link,
-          Avatar, 
-          AvatarGroup} from '@chakra-ui/react'
-          import Footer from '../src/Components/Footer';
+      Flex,
+      Text,
+      Link,
+      Avatar, 
+      AvatarGroup, 
+      Spacer} from '@chakra-ui/react'
+          
 import './App.css';
 
 function App() {
@@ -72,9 +75,24 @@ function App() {
                 <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
               </AvatarGroup>
             </HStack>
-            <Footer />
+            <Box mt={20}>
+            <Flex minWidth='max-content' alignItems='center' gap='20' >
+        <Box>
+          <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/Vector_8yGPghXEQ.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065346' />
+        </Box>
+        
+          <Spacer />
+        <Box>
+          <Text>HNG Internship 9 Frontend Task</Text>
+        </Box>
+          <Spacer />
+        <Box>
+          <Image alt='ingressive' src='https://ik.imagekit.io/ugyodiq15/ingressive_AI_l7vP0N.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065785'></Image>
+        </Box>
+      </Flex>
+      </Box>
           </VStack>
-
+          
         </Stack>
         </Box>
       </Container>
