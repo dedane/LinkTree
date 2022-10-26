@@ -1,23 +1,59 @@
-import logo from './logo.svg';
+import { Box, Image, Button, Container,  Stack, HStack, VStack,  } from '@chakra-ui/react'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+     
+      <Stack>
+         <VStack>
+          <Image
+            borderRadius='full'
+            w='200'
+            h='200'
+            src='https://ik.imagekit.io/ugyodiq15/IMG_3555-removebg-preview_iLHQDzpug.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657997737735'
+            id='profile_img'
+            alt='profile-image'>
+
+          </Image>
+          <h1>Evans Kimathi</h1>
+            <HStack>
+              <Button
+                width= '1152px'
+                height= "76px">Twitter Link</Button>
+            </HStack>
+            <HStack>
+              <Button
+                width= '1152px'
+                height= "76px">Zuri Team</Button>
+            </HStack>
+            <HStack>
+              <Button
+                width= '1152px'
+                height= "76px"
+              >Zuri Books</Button>
+            </HStack>
+            <HStack>
+              <Button
+                width= '1152px'
+                height= "76px"
+                >Python Books</Button>
+            </HStack>
+            <HStack>
+              <Button
+                  width= '1152px'
+                  height= "76px">Background Check for coders</Button>
+            </HStack>
+            <HStack>
+              <Button
+                  width= '1152px'
+                  height= "76px">Design Books</Button>
+            </HStack>
+          </VStack>
+        </Stack>
+      
+      </Container>
     </div>
   );
 }
