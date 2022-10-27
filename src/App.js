@@ -122,7 +122,7 @@ function App() {
       </Flex>
       </Center>
 
-      <Flex direction='column' alignItems='flex-end' gap='2' display={{ base: "flex", md: "flex", lg: "none", xl: "none" }}>
+      <Flex direction='column' alignItems='flex-start' gap='2' display={{ base: "flex", md: "flex", lg: "none", xl: "none" }}>
         <Box>
           <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/Vector_8yGPghXEQ.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065346' />
         </Box>
