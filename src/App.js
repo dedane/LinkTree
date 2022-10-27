@@ -59,7 +59,7 @@ function App() {
             fontWeight='bold'
             href=''>dedanxkim</Link>
             
-            <Link href='https://books.zuri.team'>
+            <Link href='https://twitter.com/dedanxkim'>
               <Button
               mb='5'
               width={["full", "full", "full", "full"]}
