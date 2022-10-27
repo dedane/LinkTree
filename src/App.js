@@ -12,24 +12,28 @@ import {  Image,
       Avatar, 
       AvatarGroup, 
       Spacer} from '@chakra-ui/react'
-      import {  TiArrowForwardOutline } from "react-icons/ti";       
+      import {  TiArrowForwardOutline } from "react-icons/ti"; 
+      import { TfiMoreAlt } from 'react-icons/tfi';      
 import './App.css';
 
 function App() {
   return (
     <Container className="App">
+       <Box  display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}>
+              <Icon style={{border: '1px dashed #D0D5DD',
+                            borderRadius: '20px', position: 'absolute', right: '400px' }} as={TiArrowForwardOutline} width={8} height={8}/>
+            </Box>
+            <Box  display={{ base: "flex", md: "flex", lg: "none", xl: "none" }}>
+              <Icon style={{border: '1px dashed #D0D5DD',
+                            borderRadius: '20px', position: 'absolute', right: '20px', top: '15px' }} as={TfiMoreAlt} width={8} height={8}/>
+            </Box>
       <Flex justifyContent='space-evenly'>
       
            
           
-      <Flex direction='column'
-        alignItems='center' 
-        align='center'>
+      
+          <Box display='flex' alignItems='baseline'>
           
-              <Icon as={TiArrowForwardOutline}  ml="30rem" mt='5'  width="10" height="10" />
-          
-          <Flex>
-          <Box display='flex' alignItems='baseline' >
           <Image
             borderRadius='full'
             w='200'
@@ -37,11 +41,13 @@ function App() {
             src='https://ik.imagekit.io/ugyodiq15/IMG_3555-removebg-preview_iLHQDzpug.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657997737735'
             id='profile_img'
             alt='profile-image'>
+               
           
           </Image>
+         
           </Box>
           
-          
+         
       
           </Flex>
           
@@ -137,11 +143,10 @@ function App() {
           <Image alt='ingressive' src='https://ik.imagekit.io/ugyodiq15/ingressive_AI_l7vP0N.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065785'></Image>
         </Box>
       </Flex>
-      </Flex>
       
       
-      </Flex>
       
+     
     </Container>
   );
 }
