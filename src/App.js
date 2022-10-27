@@ -1,10 +1,10 @@
 import {  Image,
       Button,
+     
+      Divider,
       Container,
-      Stack,
-      HStack, 
-      VStack,
       Box,
+      Icon,
       Flex,
       Center,
       Text,
@@ -12,16 +12,24 @@ import {  Image,
       Avatar, 
       AvatarGroup, 
       Spacer} from '@chakra-ui/react'
-          
+      import {  TiArrowForwardOutline } from "react-icons/ti";       
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Container>
-    
-      <Stack>
-         <VStack>
+      <Flex justifyContent='space-evenly'>
+      
+           
+          
+      <Flex direction='column'
+        alignItems='center' 
+        align='center'>
+          
+              <Icon as={TiArrowForwardOutline}  ml="30rem" mt='5'  width="10" height="10" />
+          
+          <Flex>
+          <Box display='flex' alignItems='baseline' >
           <Image
             borderRadius='full'
             w='200'
@@ -29,60 +37,73 @@ function App() {
             src='https://ik.imagekit.io/ugyodiq15/IMG_3555-removebg-preview_iLHQDzpug.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657997737735'
             id='profile_img'
             alt='profile-image'>
-
+          
           </Image>
+          </Box>
+          
+          
+      
+          </Flex>
+          
           <Link
             display='block'
             fontSize='lg'
             m={30}
             fontWeight='bold'
             href=''>dedanxkim</Link>
-            <HStack>
+            <Flex 
+               justifyContent='space-around'
+               direction='column'
+               align='center' 
+               maxWidth='100%'
+               mx='auto'>
               <Button
-                width='70rem'
+              mb='5'
+               width='70rem'
                 height='4rem'
                 id='twitter'>Twitter Link</Button>
-            </HStack>
-            <HStack>
+           
               <Button
+                mb='5'
                 width='70rem'
                 height='4rem'>Zuri Team</Button>
-            </HStack>
-            <HStack>
+           
+              
               <Button
+                mb='5'
                 width='70rem'
                 height='4rem'
               >Zuri Books</Button>
-            </HStack>
-            <HStack>
+            
               <Button
+                mb='5'
                 width='70rem'
                 height='4rem'
                 >Python Books</Button>
-            </HStack>
-            <HStack>
+            
               <Button
+                  mb='5'
                   width='70rem'
                   height='4rem'>Background Check for coders</Button>
-            </HStack>
-            <HStack>
+           
               <Button
                   width='70rem'
                   height='4rem'>Design Books</Button>
-            </HStack>
-            <HStack mb={10}>
-              <AvatarGroup spacing='2rem'>
+           </Flex>
+           <Flex 
+               direction='column'
+               align='center' 
+               mt={10}>
+              <AvatarGroup mt={4} mb={5} spacing='2rem'>
                 <Avatar name='slack' src='https://ik.imagekit.io/ugyodiq15/icons8-slack-new-48_okvZXPkQE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678278'/>
                 <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
               </AvatarGroup>
-            </HStack>
+            </Flex>
             
-          </VStack>
-          
-        </Stack>
-        
-        <Spacer gap='2' />  
-        <Center>
+         
+            
+        <Divider mt={4} mb={2} />
+        <Center mb={2} >
           <Flex minWidth='max-content' alignItems='center' gap='20' >
         <Box>
           <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/Vector_8yGPghXEQ.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065346' />
@@ -99,7 +120,11 @@ function App() {
         </Box>
       </Flex>
       </Center>
-      </Container>
+      </Flex>
+      
+      
+      </Flex>
+      
     </div>
   );
 }
