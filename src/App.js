@@ -6,9 +6,10 @@ import {  Image,
       Box,
       Icon,
       Flex,
+      Link,
       Center,
       Text,
-      Link,
+      
       Avatar, 
       AvatarGroup, 
       Spacer} from '@chakra-ui/react'
@@ -58,45 +59,56 @@ function App() {
             fontWeight='bold'
             href=''>dedanxkim</Link>
             
+            <Link href='https://books.zuri.team'>
               <Button
               mb='5'
               width={["full", "full", "full", "full"]}
               align="center"
                 height='4rem'
                 id='twitter'>Twitter Link</Button>
+            </Link>
            
+            <Link href='https://training.zuri.team'>
               <Button
                 mb='5'
                 width={["full", "full", "full", "full"]}
+                id='btn_zuri'
                 align="center"
                 height='4rem'>Zuri Team</Button>
-           
-              
+            </Link>
+            <Link href='https://books.zuri.team'>
               <Button
                 mb='5'
                 width={["full", "full", "full", "full"]}
                 align="center"
+                id='books'
                 height='4rem'
               >Zuri Books</Button>
-            
+            </Link>
+            <Link href='https://books.zuri.team/python-for-beginners?ref_id=DisruptorOfPixels'>
               <Button
                 mb='5'
                 width={["full", "full", "full", "full"]}
                 align="center"
+                id='book_python'
                 height='4rem'
                 >Python Books</Button>
-            
+            </Link>
+            <Link href='https://background.zuri.team'>
               <Button
                   mb='5'
+                  id='pitch'
                   width={["full", "full", "full", "full"]}
                   align="center"
                   height='4rem'>Background Check for coders</Button>
-           
+            </Link>
+            <Link href='https://books.zuri.team/design-rules'>
               <Button
                   width={["full", "full", "full", "full"]}
+                  id='book_design'
                   align="center"
                   height='4rem'>Design Books</Button>
-           
+            </Link>
            <Flex 
                direction='column'
                align='center' 
