@@ -51,7 +51,9 @@ function App() {
          
       
           </Flex>
-          
+       
+
+         
           <Link
             href='https://twitter.com/dedanxkim'
             display='block'
@@ -118,18 +120,22 @@ function App() {
                align='center' 
                mt={10}>
               <AvatarGroup mt={4} mb={5} spacing='2rem'>
-                <Avatar name='slack' src='https://ik.imagekit.io/ugyodiq15/icons8-slack-new-48_okvZXPkQE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678278'/>
-                <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
+                <Link href='https://github.com/dedane'>
+                  <Avatar name='slack' src='https://ik.imagekit.io/ugyodiq15/icons8-slack-new-48_okvZXPkQE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678278'/>
+                </Link>
+                <Link href>
+                  <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
+                </Link>
               </AvatarGroup>
             </Flex>
             
-         
+        
             
         <Divider mt={4} mb={2} />
         <Center mb={2} >
           <Flex minWidth='max-content' alignItems='center' gap='20' display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}>
         <Box>
-          <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/Vector_8yGPghXEQ.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065346' />
+          <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/logo.36d2d48a_7eAQqYBGT.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666871899744' />
         </Box>
         <Spacer />
           <Spacer />
