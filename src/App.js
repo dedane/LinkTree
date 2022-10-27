@@ -17,7 +17,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <Container className="App">
       <Flex justifyContent='space-evenly'>
       
            
@@ -51,45 +51,46 @@ function App() {
             m={30}
             fontWeight='bold'
             href=''>dedanxkim</Link>
-            <Flex 
-               justifyContent='space-around'
-               direction='column'
-               align='center' 
-               maxWidth='100%'
-               mx='auto'>
+            
               <Button
               mb='5'
-               width='70rem'
+              width={["full", "full", "full", "full"]}
+              align="center"
                 height='4rem'
                 id='twitter'>Twitter Link</Button>
            
               <Button
                 mb='5'
-                width='70rem'
+                width={["full", "full", "full", "full"]}
+                align="center"
                 height='4rem'>Zuri Team</Button>
            
               
               <Button
                 mb='5'
-                width='70rem'
+                width={["full", "full", "full", "full"]}
+                align="center"
                 height='4rem'
               >Zuri Books</Button>
             
               <Button
                 mb='5'
-                width='70rem'
+                width={["full", "full", "full", "full"]}
+                align="center"
                 height='4rem'
                 >Python Books</Button>
             
               <Button
                   mb='5'
-                  width='70rem'
+                  width={["full", "full", "full", "full"]}
+                  align="center"
                   height='4rem'>Background Check for coders</Button>
            
               <Button
-                  width='70rem'
+                  width={["full", "full", "full", "full"]}
+                  align="center"
                   height='4rem'>Design Books</Button>
-           </Flex>
+           
            <Flex 
                direction='column'
                align='center' 
@@ -125,7 +126,7 @@ function App() {
       
       </Flex>
       
-    </div>
+    </Container>
   );
 }
 
