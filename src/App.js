@@ -6,6 +6,7 @@ import {  Image,
       VStack,
       Box,
       Flex,
+      Center,
       Text,
       Link,
       Avatar, 
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Container>
-     <Box w='500px' h='100px'>
+    
       <Stack>
          <VStack>
           <Image
@@ -69,32 +70,35 @@ function App() {
                   width='70rem'
                   height='4rem'>Design Books</Button>
             </HStack>
-            <HStack>
+            <HStack mb={10}>
               <AvatarGroup spacing='2rem'>
                 <Avatar name='slack' src='https://ik.imagekit.io/ugyodiq15/icons8-slack-new-48_okvZXPkQE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678278'/>
                 <Avatar name='Github' src='https://ik.imagekit.io/ugyodiq15/icons8-github-32_ynAHjKiDy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666811678127'/>
               </AvatarGroup>
             </HStack>
-            <Box mt={20}>
-            <Flex minWidth='max-content' alignItems='center' gap='20' >
+            
+          </VStack>
+          
+        </Stack>
+        
+        <Spacer gap='2' />  
+        <Center>
+          <Flex minWidth='max-content' alignItems='center' gap='20' >
         <Box>
           <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/Vector_8yGPghXEQ.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065346' />
         </Box>
-        
+        <Spacer />
           <Spacer />
         <Box>
           <Text>HNG Internship 9 Frontend Task</Text>
         </Box>
           <Spacer />
+          <Spacer />
         <Box>
           <Image alt='ingressive' src='https://ik.imagekit.io/ugyodiq15/ingressive_AI_l7vP0N.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065785'></Image>
         </Box>
       </Flex>
-      </Box>
-          </VStack>
-          
-        </Stack>
-        </Box>
+      </Center>
       </Container>
     </div>
   );
