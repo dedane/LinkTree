@@ -21,7 +21,7 @@ function App() {
     <Container className="App">
        <Box  display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}>
               <Icon style={{border: '1px dashed #D0D5DD',
-                            borderRadius: '20px', position: 'absolute', right: '400px' }} as={TiArrowForwardOutline} width={8} height={8}/>
+                            borderRadius: '20px', position: 'absolute', right: '400px', top: '20px' }} as={TiArrowForwardOutline} width={8} height={8}/>
             </Box>
             <Box  display={{ base: "flex", md: "flex", lg: "none", xl: "none" }}>
               <Icon style={{border: '1px dashed #D0D5DD',
