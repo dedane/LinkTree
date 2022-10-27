@@ -19,7 +19,7 @@ import './App.css';
 
 function App() {
   return (
-    <Container className="App">
+    <Container maxW={"100vw"}>
        <Box  display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}>
               <Icon style={{border: '1px dashed #D0D5DD',
                             borderRadius: '20px', position: 'absolute', right: '400px', top: '20px' }} as={TiArrowForwardOutline} width={8} height={8}/>
@@ -45,22 +45,28 @@ function App() {
                
           
           </Image>
+          
          
           </Box>
+          
           
          
       
           </Flex>
-       
-
-         
+          <flex justifyContent='center'>
           <Link
             href='https://twitter.com/dedanxkim'
+            align='center'
             display='block'
             fontSize='lg'
             m={30}
             fontWeight='bold'
             >dedanxkim</Link>
+          </flex>
+       
+
+         
+         
 
             <Text id='slack' style={{visibility: 'hidden'}}>
               Evans Kimathi </Text>
@@ -110,7 +116,9 @@ function App() {
             </Link>
             <Link href='https://books.zuri.team/design-rules'>
               <Button
-                  width={["full", "full", "full", "full"]}
+                  style={{width:'100%',
+                    display:'block',
+                    textAlign:'center'}}
                   id='book_design'
                   align="center"
                   height='4rem'>Design Books</Button>
