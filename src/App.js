@@ -53,11 +53,15 @@ function App() {
           </Flex>
           
           <Link
+            href='https://twitter.com/dedanxkim'
             display='block'
             fontSize='lg'
             m={30}
             fontWeight='bold'
-            href=''>dedanxkim</Link>
+            >dedanxkim</Link>
+
+            <Text id='slack' style={{visibility: 'hidden'}}>
+              Evans Kimathi </Text>
             
             <Link href='https://twitter.com/dedanxkim'>
               <Button
