@@ -35,16 +35,16 @@ function App() {
       
           <Box display='flex' alignItems='baseline'>
           
-          <Image
+          <Avatar
+            mt='10'
             borderRadius='full'
-            w='200'
-            h='200'
+            size='2xl'
             src='https://ik.imagekit.io/ugyodiq15/IMG_3555-removebg-preview_iLHQDzpug.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657997737735'
             id='profile_img'
-            alt='profile-image'>
+            alt='profile-image' />
                
           
-          </Image>
+         
           
          
           </Box>
@@ -54,14 +54,14 @@ function App() {
       
           </Flex>
           <flex justifyContent='center'>
-          <Link
+          <Text
             href='https://twitter.com/dedanxkim'
             align='center'
             display='block'
             fontSize='lg'
             m={30}
             fontWeight='bold'
-            >dedanxkim</Link>
+            >@dedanxkim</Text>
           </flex>
        
 
@@ -71,58 +71,58 @@ function App() {
             <Text id='slack' style={{visibility: 'hidden'}}>
               Evans Kimathi </Text>
             
-            <Link href='https://twitter.com/dedanxkim'>
+            
               <Button
               mb='5'
               width={["full", "full", "full", "full"]}
               align="center"
                 height='4rem'
-                id='twitter'>Twitter Link</Button>
-            </Link>
+                id='twitter'><Link href='https://twitter.com/dedanxkim'>Twitter Link </Link></Button>
            
-            <Link href='https://training.zuri.team'>
+           
+            
               <Button
                 mb='5'
                 width={["full", "full", "full", "full"]}
-                id='btn_zuri'
+                id='btn__zuri'
                 align="center"
-                height='4rem'>Zuri Team</Button>
-            </Link>
-            <Link href='https://books.zuri.team'>
+                height='4rem'><Link href='https://training.zuri.team'>Zuri Team</Link></Button>
+            
+            
               <Button
                 mb='5'
                 width={["full", "full", "full", "full"]}
                 align="center"
                 id='books'
                 height='4rem'
-              >Zuri Books</Button>
-            </Link>
-            <Link href='https://books.zuri.team/python-for-beginners?ref_id=DisruptorOfPixels'>
+              ><Link href='https://books.zuri.team'>Zuri Books </Link></Button>
+           
               <Button
                 mb='5'
                 width={["full", "full", "full", "full"]}
                 align="center"
-                id='book_python'
-                height='4rem'
-                >Python Books</Button>
-            </Link>
-            <Link href='https://background.zuri.team'>
+                id='book__python'
+                height='4rem'>
+            <Link href='https://books.zuri.team/python-for-beginners?ref_id=DisruptorOfPixels'>
+            Python Books </Link></Button>
+           
+            
               <Button
-                  mb='5'
+              mb='5'
                   id='pitch'
                   width={["full", "full", "full", "full"]}
                   align="center"
-                  height='4rem'>Background Check for coders</Button>
-            </Link>
-            <Link href='https://books.zuri.team/design-rules'>
+                  height='4rem'>
+                    <Link href='https://background.zuri.team'>Background Check for coders</Link></Button>
+           
               <Button
-                  style={{width:'100%',
-                    display:'block',
-                    textAlign:'center'}}
-                  id='book_design'
+                  width={["full", "full", "full", "full"]}
+                  id='book__design'
                   align="center"
-                  height='4rem'>Design Books</Button>
-            </Link>
+                  height='4rem'>
+            <Link href='https://books.zuri.team/design-rules'>
+           Design Books</Link></Button>
+            
            <Flex 
                direction='column'
                align='center' 
@@ -160,7 +160,7 @@ function App() {
 
       <Flex direction='column' alignItems='flex-start' gap='2' display={{ base: "flex", md: "flex", lg: "none", xl: "none" }}>
         <Box>
-          <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/Vector_8yGPghXEQ.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065346' />
+          <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/logo.36d2d48a_7eAQqYBGT.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666871899744' />
         </Box>
         <Spacer />
           
