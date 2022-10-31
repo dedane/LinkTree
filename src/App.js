@@ -39,8 +39,9 @@ function App() {
             mt='10'
             borderRadius='full'
             size='2xl'
+            
             src='https://ik.imagekit.io/ugyodiq15/IMG_3555-removebg-preview_iLHQDzpug.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657997737735'
-            id='profile_img'
+            id='profile__img'
             alt='profile-image' />
                
           
@@ -58,6 +59,7 @@ function App() {
             href='https://twitter.com/dedanxkim'
             align='center'
             display='block'
+            id='twitter'
             fontSize='lg'
             m={30}
             fontWeight='bold'
