@@ -92,6 +92,7 @@ function App() {
                   height='4rem'
             fontWeight='500'
             width='100%'
+            id="btn__zuri"
             alignItems='center'
             mt={5}
             style={{ display:'flex',
@@ -106,6 +107,7 @@ function App() {
                   height='4rem'
             fontWeight='500'
             width='100%'
+            id="books"
             alignItems='center'
             mt={5}
             style={{ display:'flex',
@@ -120,6 +122,7 @@ function App() {
                   height='4rem'
                   fontWeight='500'
                   width='100%'
+                  id="book__python"
                   alignItems='center'
                   mt={5}
                   style={{ display:'flex',
@@ -137,6 +140,7 @@ function App() {
                      height='4rem'
                      fontWeight='500'
                      width='100%'
+                     id="pitch"
                      alignItems='center'
                       mt={5}
                   style={{ display:'flex',
@@ -152,7 +156,7 @@ function App() {
                   align="center"
                   height='4rem'> */}
             <Link href='https://books.zuri.team/design-rules'
-            
+            id="book__design"
             height='4rem'
             fontWeight='500'
             width='100%'
