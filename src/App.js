@@ -78,6 +78,7 @@ function App() {
                     height='4rem'
                     fontWeight='500'
                     width='100%'
+                    id='twitter'
                     alignItems='center'
                     mt={5}
                     style={{ display:'flex',
