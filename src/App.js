@@ -1,5 +1,5 @@
 import {  Image,
-      Button,
+      
      
       Divider,
       Container,
@@ -72,56 +72,101 @@ function App() {
               Evans Kimathi </Text>
             
             
-              <Button
-              mb='5'
-              width={["full", "full", "full", "full"]}
-              align="center"
-                height='4rem'
-                id='twitter'><Link href='https://twitter.com/dedanxkim'>Twitter Link </Link></Button>
+              <Link href='https://twitter.com/dedanxkim'
+                    height='4rem'
+                    fontWeight='500'
+                    width='100%'
+                    alignItems='center'
+                    mt={5}
+                    style={{ display:'flex',
+                        textDecoration:'none',
+                            verticalAlign: 'middle',
+                            textAlign: 'Center',
+                            justifyContent: 'center',
+                            background: '#EDF2F7'}}>Twitter Link </Link>
            
            
             
-              <Button
-                mb='5'
-                width={["full", "full", "full", "full"]}
-                id='btn__zuri'
-                align="center"
-                height='4rem'><Link href='https://training.zuri.team'>Zuri Team</Link></Button>
+              <Link 
+                  href='https://training.zuri.team'
+                  height='4rem'
+            fontWeight='500'
+            width='100%'
+            alignItems='center'
+            mt={5}
+            style={{ display:'flex',
+                textDecoration:'none',
+                    verticalAlign: 'middle',
+                    textAlign: 'Center',
+                    justifyContent: 'center',
+                    background: '#EDF2F7'}}>Zuri Team</Link>
             
+            <Link 
+                  href='https://books.zuri.team'
+                  height='4rem'
+            fontWeight='500'
+            width='100%'
+            alignItems='center'
+            mt={5}
+            style={{ display:'flex',
+                textDecoration:'none',
+                    verticalAlign: 'middle',
+                    textAlign: 'Center',
+                    justifyContent: 'center',
+                    background: '#EDF2F7'}}>Zuri Books </Link>
+           
+              
+            <Link href='https://books.zuri.team/python-for-beginners?ref_id=DisruptorOfPixels'
+                  height='4rem'
+                  fontWeight='500'
+                  width='100%'
+                  alignItems='center'
+                  mt={5}
+                  style={{ display:'flex',
+                      textDecoration:'none',
+                          verticalAlign: 'middle',
+                          textAlign: 'Center',
+                          justifyContent: 'center',
+                          background: '#EDF2F7'}}>
+            Python Books </Link>
+           
             
-              <Button
-                mb='5'
-                width={["full", "full", "full", "full"]}
-                align="center"
-                id='books'
-                height='4rem'
-              ><Link href='https://books.zuri.team'>Zuri Books </Link></Button>
+              
+                    <Link
+                     href='https://background.zuri.team'
+                     height='4rem'
+                     fontWeight='500'
+                     width='100%'
+                     alignItems='center'
+                      mt={5}
+                  style={{ display:'flex',
+                    textDecoration:'none',
+                    verticalAlign: 'middle',
+                    textAlign: 'Center',
+                    justifyContent: 'center',
+                    background: '#EDF2F7'}}>Background Check for coders</Link>
            
-              <Button
-                mb='5'
-                width={["full", "full", "full", "full"]}
-                align="center"
-                id='book__python'
-                height='4rem'>
-            <Link href='https://books.zuri.team/python-for-beginners?ref_id=DisruptorOfPixels'>
-            Python Books </Link></Button>
-           
-            
-              <Button
-              mb='5'
-                  id='pitch'
-                  width={["full", "full", "full", "full"]}
-                  align="center"
-                  height='4rem'>
-                    <Link href='https://background.zuri.team'>Background Check for coders</Link></Button>
-           
-              <Button
+            {/*  <Button
                   width={["full", "full", "full", "full"]}
                   id='book__design'
                   align="center"
-                  height='4rem'>
-            <Link href='https://books.zuri.team/design-rules'>
-           Design Books</Link></Button>
+                  height='4rem'> */}
+            <Link href='https://books.zuri.team/design-rules'
+            
+            height='4rem'
+            fontWeight='500'
+            width='100%'
+            alignItems='center'
+            mt={5}
+            style={{ display:'flex',
+                textDecoration:'none',
+                    verticalAlign: 'middle',
+                    textAlign: 'Center',
+                    justifyContent: 'center'}}
+            background='#EDF2F7'
+            >
+              Design Books
+          </Link> {/*  </Button> */}
             
            <Flex 
                direction='column'
@@ -169,7 +214,7 @@ function App() {
         </Box>
           <Spacer />
           
-        <Box>
+        <Box mb={4}>
           <Image alt='ingressive' src='https://ik.imagekit.io/ugyodiq15/ingressive_AI_l7vP0N.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065785'></Image>
         </Box>
       </Flex>
