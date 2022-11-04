@@ -1,20 +1,17 @@
-import {  Image,
-      
-     
+import { 
       Divider,
       Container,
       Box,
       Icon,
       Flex,
       Link,
-      Center,
-      Text,
       
+      Text,
       Avatar, 
-      AvatarGroup, 
-      Spacer} from '@chakra-ui/react'
+      AvatarGroup} from '@chakra-ui/react'
       import {  TiArrowForwardOutline } from "react-icons/ti"; 
-      import { TfiMoreAlt } from 'react-icons/tfi';      
+      import { TfiMoreAlt } from 'react-icons/tfi'; 
+      import Footer from './Components/Footer'     
 import './App.css';
 
 function App() {
@@ -29,30 +26,15 @@ function App() {
                             borderRadius: '20px', position: 'absolute', right: '20px', top: '15px' }} as={TfiMoreAlt} width={8} height={8}/>
             </Box>
       <Flex justifyContent='space-evenly'>
-      
-           
-          
-      
-          <Box display='flex' alignItems='baseline'>
-          
+          <Box display='flex' alignItems='baseline'> 
           <Avatar
             mt='10'
             borderRadius='full'
-            size='2xl'
-            
+            size='2xl' 
             src='https://ik.imagekit.io/ugyodiq15/IMG_3555-removebg-preview_iLHQDzpug.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657997737735'
             id='profile__img'
             alt='profile-image' />
-               
-          
-         
-          
-         
           </Box>
-          
-          
-         
-      
           </Flex>
           <flex justifyContent='center'>
           <Text
@@ -65,15 +47,8 @@ function App() {
             fontWeight='bold'
             >@dedanxkim</Text>
           </flex>
-       
-
-         
-         
-
-            <Text id='slack' style={{visibility: 'hidden'}}>
-              Evans Kimathi </Text>
-            
-            
+          <Text id='slack' style={{visibility: 'hidden'}}>
+              Evans Kimathi </Text>     
               <Link href='https://twitter.com/dedanxkim'
                     height='4rem'
                     fontWeight='500'
@@ -87,9 +62,6 @@ function App() {
                             textAlign: 'Center',
                             justifyContent: 'center',
                             background: '#EDF2F7'}}>Twitter Link </Link>
-           
-           
-            
               <Link 
                   href='https://training.zuri.team'
                   height='4rem'
@@ -192,41 +164,9 @@ function App() {
         
             
         <Divider mt={4} mb={2} />
-        <Center mb={2} >
-          <Flex minWidth='max-content' alignItems='center' gap='20' display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}>
-        <Box>
-          <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/logo.36d2d48a_7eAQqYBGT.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666871899744' />
-        </Box>
-        <Spacer />
-          <Spacer />
-        <Box>
-          <Text>HNG Internship 9 Frontend Task</Text>
-        </Box>
-          <Spacer />
-          <Spacer />
-        <Box>
-          <Image alt='ingressive' src='https://ik.imagekit.io/ugyodiq15/ingressive_AI_l7vP0N.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065785'></Image>
-        </Box>
-      </Flex>
-      </Center>
-
-      <Flex direction='column' alignItems='flex-start' gap='2' display={{ base: "flex", md: "flex", lg: "none", xl: "none" }}>
-        <Box>
-          <Image alt='zuri-team' src='https://ik.imagekit.io/ugyodiq15/logo.36d2d48a_7eAQqYBGT.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666871899744' />
-        </Box>
-        <Spacer />
-          
-        <Box>
-          <Text>HNG Internship 9 Frontend Task</Text>
-        </Box>
-          <Spacer />
-          
-        <Box mb={4}>
-          <Image alt='ingressive' src='https://ik.imagekit.io/ugyodiq15/ingressive_AI_l7vP0N.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1666814065785'></Image>
-        </Box>
-      </Flex>
+        
       
-      
+      <Footer />
       
      
     </Container>
