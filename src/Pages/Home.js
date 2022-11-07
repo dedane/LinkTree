@@ -8,7 +8,7 @@ import {
     
     Avatar, 
     AvatarGroup,
-    Center} from '@chakra-ui/react'
+    } from '@chakra-ui/react'
     import {  TiArrowForwardOutline } from "react-icons/ti"; 
     import { TfiMoreAlt } from 'react-icons/tfi'; 
     import Footer from '../Components/Footer'     

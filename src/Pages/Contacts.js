@@ -1,9 +1,11 @@
 import React from 'react'
 import { Box, Container, Text, Textarea, Input, Radio, Button } from '@chakra-ui/react'
 //import { Textarea } from '@chakra-ui/react'
+import Footer from '../Components/Footer' 
 
 function Contacts() {
   return (
+  <div id>
     <Box>
       <Container>
         <Text variant='h1' fontSize='40px' fontWeight='bold'>Contact Me</Text>
@@ -33,8 +35,10 @@ function Contacts() {
                    width ='100%'>Send Message</Button>
         
       </Container>
+      
     </Box>
-    
+    <Footer />
+  </div>
   )
 }
 
