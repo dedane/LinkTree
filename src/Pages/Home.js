@@ -61,6 +61,7 @@ return (
                    fontWeight:'500',
                    width:'100%',
                     display:'flex',
+                    alignItems: 'center',
                   textDecoration:'none',
                   verticalAlign: 'middle',
                   textAlign: 'Center',
@@ -76,6 +77,7 @@ return (
            fontWeight:'500',
            width:'100%',
             display:'flex',
+            alignItems: 'center',
           textDecoration:'none',
           verticalAlign: 'middle',
           textAlign: 'Center',
@@ -93,6 +95,7 @@ return (
            fontWeight:'500',
            width:'100%',
             display:'flex',
+            alignItems: 'center',
           textDecoration:'none',
           verticalAlign: 'middle',
           textAlign: 'Center',
@@ -109,6 +112,7 @@ return (
                    fontWeight:'500',
                    width:'100%',
                     display:'flex',
+                    alignItems: 'center',
                   textDecoration:'none',
                   verticalAlign: 'middle',
                   textAlign: 'Center',
@@ -130,6 +134,7 @@ return (
                    fontWeight:'500',
                    width:'100%',
                     display:'flex',
+                    alignItems: 'center',
                   textDecoration:'none',
                   verticalAlign: 'middle',
                   textAlign: 'Center',
@@ -148,6 +153,7 @@ return (
            fontWeight:'500',
            width:'100%',
             display:'flex',
+            alignItems: 'center',
           textDecoration:'none',
           verticalAlign: 'middle',
           textAlign: 'Center',
@@ -160,24 +166,22 @@ return (
         
         <Link
           id='contact'  
-          height='4rem'
-          fontWeight='500'
-          width='100%'
-          alignItems='center'
-          mt={5}
+          
+         
           style={{  marginTop: 20,
             align: 'center',
             justify: 'center',
             height:'4rem',
-           fontWeight:'500',
-           width:'100%',
-           display:'flex',
-          textDecoration:'none',
-          verticalAlign: 'middle',
-          textAlign: 'Center',
-          justifyContent: 'center',
-          background: '#EDF2F7'}}
-          background='#EDF2F7'  to='/Contacts'>
+            fontWeight:'500',
+            alignItems: 'center',
+            width:'100%',
+            display:'flex',
+            textDecoration:'none',
+            verticalAlign: 'middle',
+            textAlign: 'Center',
+            justifyContent: 'center',
+            background: '#EDF2F7'}}
+            to='/Contacts'>
               Contacts
         </Link>
        
