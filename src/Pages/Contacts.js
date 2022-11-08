@@ -9,39 +9,45 @@ function Contacts() {
     
       <Container >
         <Text variant='h1' fontSize='40px' fontWeight='bold'>Contact Me</Text>
-        <Text fontSize='15px'>Hi there, contact me to ask me about anything you have in mind.</Text>
+        <Text fontSize='15px' mt={4} mb={8}>Hi there, contact me to ask me about anything you have in mind.</Text>
 
         <Text mb='8px' >First name</Text>
         <Input 
+          mb={8}
           placeholder='Enter your First Name' />
 
         <Text mb='8px' >Last name</Text>
-        <Input 
+        <Input
+          mb={8} 
           placeholder='Enter your Last Name' />
 
           <Grid templateColumns='repeat(2, 250fr)' gap={8} display={{ base: "none", md: "none", lg: "flex", xl: "flex" }} >
             <GridItem>
             <Text mb='8px' >First name</Text>
         <Input 
+          mb={8}
           placeholder='Enter your First Name' />
             </GridItem>
             <GridItem>
             <Text mb='8px' >Last name</Text>
         <Input 
+          mb={8}
           placeholder='Enter your Last Name' />
             </GridItem>
           </Grid>
 
         <Text mb='8px' >Email</Text>
         <Input 
+          mb={8}
           placeholder='yourname@email.com' />
         
         <Text mb='8px' >Message</Text>
         <Textarea
+        mb={6}
         placeholder="Send me a message and I'll reply you as soon as possible..." >
 
         </Textarea>
-        <Radio>You agree to providing your data to Evans who may contact you.</Radio>
+        <Radio mb={6}>You agree to providing your data to Evans who may contact you.</Radio>
 
         <Button background='#1570EF' color='white' height='4rem'
                    fontWeight= '500'
