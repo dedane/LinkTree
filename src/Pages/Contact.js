@@ -10,7 +10,7 @@ function Contact() {
       <Container >
         <form>
         <Text variant='h1' fontSize='40px' fontWeight='bold'>Contact Me</Text>
-        <Text fontSize='15px' mt={4} mb={8}>Hi there, contact me to ask me about anything you have in mind.</Text>
+        <Text fontSize='18px' mt={4} mb={8}>Hi there, contact me to ask me about anything you have in mind.</Text>
 
         
 
