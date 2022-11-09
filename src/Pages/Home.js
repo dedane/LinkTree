@@ -182,7 +182,7 @@ return (
             justifyContent: 'center',
             background: '#EDF2F7'}}
             to='/Contact'>
-              Contacts
+              Contact Me
         </Link>
        
          <Flex 
