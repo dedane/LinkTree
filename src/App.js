@@ -1,5 +1,5 @@
 import Home from "../src/Pages/Home";
-import Contacts from "../src/Pages/Contacts";
+import Contact from "./Pages/Contact";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/Contacts" element={<Contacts />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
       </Routes>
     </div>
   );

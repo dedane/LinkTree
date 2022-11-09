@@ -181,7 +181,7 @@ return (
             textAlign: 'Center',
             justifyContent: 'center',
             background: '#EDF2F7'}}
-            to='/Contacts'>
+            to='/Contact'>
               Contacts
         </Link>
        
